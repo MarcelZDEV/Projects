@@ -1,6 +1,6 @@
 import sqlite3
 
-conn = sqlite3.connect('contactbook.db')
+conn = sqlite3.connect('../contactbook.db')
 
 cursor = conn.cursor()
 
